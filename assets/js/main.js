@@ -1,5 +1,27 @@
 $(document).ready(function(){
 
+  $(".view-projects").click(function() {
+    // disable the scroll
+    $.fn.fullpage.setAllowScrolling(false);
+
+    var the_section = $(this).data("section");
+
+    // make image bigger
+    $(the_section+" .content").animate({
+      'width': '97%',
+      'height': '94%',
+      'margin-top': '0px'
+    }, 600);
+
+    // change name color
+    $('.header-menu .name').animate({
+      'color': '#FFFFFF'
+    }, 550);
+
+    // $('.esto-dale').show();
+
+  });
+
   /* ---- particles.js config ---- */
   particlesJS("particles-js", {
     "particles": {

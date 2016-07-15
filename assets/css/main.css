@@ -8,6 +8,22 @@ h1{
   font-size: 6em;
 }
 
+.dark-blue-color {
+  color: #00416B;
+}
+
+.dark-blue-background {
+  background: #00416B;
+}
+
+.light-blue-color {
+  color: #36A7AA;
+}
+
+.light-blue-background {
+  background: #36A7AA;
+}
+
 .bold {
   font-weight: 800;
 }
@@ -36,6 +52,22 @@ button {
 .on-top {
   z-index: 100;
   position: relative;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.b-50 {
+  width: 50%;
+}
+
+.block {
+  overflow: hidden;
 }
 
 /*Overwrite fullpage css*/

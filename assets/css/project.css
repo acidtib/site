@@ -1,0 +1,206 @@
+/*slider*/
+#slides {
+  display:none;
+  position: relative;
+  text-align: center;
+}
+
+.slidesjs-pagination {
+  list-style: none;
+  margin: -59px auto 21px;
+  position: relative;
+  z-index: 18;
+}
+
+.slidesjs-pagination li {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/dots.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px;
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+
+/*project*/
+.header-menu .name {
+  color: #FFFFFF;
+}
+
+.project {
+  padding: 14px;
+}
+
+.project .top-image {
+  width: 100%;
+  background: url(../img/activism.jpg) no-repeat center center;
+}
+
+.project .top-image h1,
+.project .top-image h3 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.project .top-image h1 {
+  padding-top: 11%;
+  font-size: 89px;
+  line-height: 84px;
+}
+
+.project .top-image h3 {
+  font-size: 26px;
+  margin-top: 8px;
+}
+
+.project .the-intro {
+  overflow: hidden;
+}
+
+.project .the-intro .say-it,
+.project .the-intro .show-it {
+  float: left;
+  width: 50%;
+}
+
+.project .the-intro .say-it {
+  font-size: 44px;
+  line-height: 38px;
+  color: #00416B;
+}
+
+.project .the-intro .say-it p {
+  text-align: right;
+  padding: 130px 16% 130px 0;
+}
+
+.project .the-intro .say-it span {
+  color: #36A7AA;
+}
+
+.project .the-intro .say-it .grew {
+  font-size: 141px;
+  line-height: 116px;
+}
+
+.project .the-intro .show-it {
+  background: url(../img/crypto-currency/bitstophome.jpg) no-repeat top center;
+}
+
+
+/*the-backend*/
+.the-backend {
+
+}
+
+.the-backend .left-left {
+  background: url(../img/crypto-currency/backend.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 57px 0px 0px 65px;
+  height: 100%;
+}
+
+.the-backend .left-left h1 {
+  color: #FFFFFF;
+  line-height: 86px;
+}
+
+.the-backend .left-right {
+  padding: 36px 50px;
+}
+
+.the-backend .left-right h3 {
+  font-size: 6em;
+  margin-bottom: 80px;
+}
+
+.the-backend .left-right ul {
+  list-style: inherit;
+  padding-left: 31px;
+}
+
+.the-backend .left-right ul li {
+  color: #FFFFFF;
+  font-size: 34px;
+  padding-bottom: 34px;
+  line-height: 33px;
+}
+
+
+/*the website*/
+.the-website {
+
+}
+
+.the-website .left-left {
+  padding: 92px 0px 92px 65px;
+  height: 100%;
+}
+
+.the-website .left-right {
+  padding: 92px 0px 0px 0px;
+  text-align: center;
+}
+
+.the-website .left-right img {
+  width: 80%;
+}
+
+.the-website .left-left h1 {
+  line-height: 86px;
+}
+
+.the-website .left-left p {
+  font-size: 28px;
+  margin: 19px 0px 0px 0px;
+}
+
+
+/*co-organized hackathon*/
+.co-organized-hackathon {
+
+}
+
+.co-organized-hackathon .left-left {
+
+}
+
+.co-organized-hackathon .left-right {
+
+}
+
+.co-organized-hackathon .left-right {
+  padding: 36px 50px;
+}
+
+.co-organized-hackathon .left-right h3 {
+  font-size: 6em;
+  margin-bottom: 80px;
+}
+
+.co-organized-hackathon .left-right ul {
+  list-style: inherit;
+  padding-left: 31px;
+}
+
+.co-organized-hackathon .left-right ul li {
+  font-size: 34px;
+  padding-bottom: 34px;
+  line-height: 33px;
+}
