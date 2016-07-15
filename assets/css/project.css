@@ -104,6 +104,76 @@
 }
 
 
+/*rnd*/
+.rnd {
+
+}
+
+.rnd .left-left {
+  padding: 57px 0px 57px 65px;
+}
+
+.rnd .left-right {
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 50%;
+  width: 182px;
+  height: 182px;
+  padding: 28px;
+  margin: 15% auto;
+}
+
+.rnd .left-left h1 {
+  line-height: 86px;
+}
+
+.rnd .left-left p {
+  color: #FFFFFF;
+  font-size: 28px;
+  margin: 19px 0px 0px 0px;
+}
+
+.rnd .left-right h2 {
+  color: #FFFFFF;
+  font-size: 19px;
+  margin: 26px 0px 9px 0px;
+}
+
+/*the machine*/
+.the-machine {
+
+}
+
+.the-machine .left-left {
+  padding: 57px 0px 57px 65px;
+}
+
+.the-machine .left-right {
+  padding: 36px 50px;
+}
+
+.the-machine .left-left h1 {
+  line-height: 86px;
+}
+
+.the-machine .left-left img {
+  margin-top: -44px;
+}
+
+.the-machine .left-right ul {
+  list-style: inherit;
+  padding-left: 31px;
+  margin-top: 28%;
+}
+
+.the-machine .left-right ul li {
+  color: #00416B;
+  font-size: 34px;
+  padding-bottom: 34px;
+  line-height: 33px;
+}
+
+
 /*the-backend*/
 .the-backend {
 
@@ -171,6 +241,29 @@
   margin: 19px 0px 0px 0px;
 }
 
+/*image block*/
+.image-block {
+
+}
+
+.image-block .center-center {
+  text-align: center;
+  padding: 190px 0px;
+  background: url(../img/crypto-currency/image-block.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.image-block .center-center h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #FFFFFF;
+}
+
+.image-block .center-center h1 {
+  line-height: 86px;
+  color: #FFFFFF;
+}
+
 
 /*co-organized hackathon*/
 .co-organized-hackathon {
@@ -203,4 +296,27 @@
   font-size: 34px;
   padding-bottom: 34px;
   line-height: 33px;
+}
+
+/*next project*/
+.next-project-the-plantain {
+  margin: 20px 0px 0px 0px;
+}
+
+.next-project-the-plantain .center-center {
+  background: url(../img/crypto-currency/nexttheplantain.png) no-repeat top center;
+  background-size: cover;
+  padding: 67px 67px 67px 36%;
+}
+
+.next-project-the-plantain .center-center h3 {
+  color: #FFFFFF;
+  font-size: 22px;
+
+}
+
+.next-project-the-plantain .center-center h1 {
+  color: #FFFFFF;
+  margin: 0px;
+  line-height: 84px;
 }
