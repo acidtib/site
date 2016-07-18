@@ -5,11 +5,12 @@ $(document).ready(function(){
     $.fn.fullpage.setAllowScrolling(false);
 
     var the_section = $(this).data("section");
+    var to_url = $(this).data("url");
 
     // make image bigger
     $(the_section+" .content").animate({
-      'width': '97%',
-      'height': '94%',
+      'width': '98%',
+      'height': '96%',
       'margin-top': '0px'
     }, 600);
 
@@ -19,6 +20,9 @@ $(document).ready(function(){
     }, 550);
 
     // $('.esto-dale').show();
+    setTimeout(function() {
+      window.location.href = "/"+to_url;
+    }, 1000);
 
   });
 
