@@ -39,6 +39,13 @@
 
 
 /*project*/
+.pointer {
+  width: 88px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 93px;
+}
+
 .header-menu .name {
   color: #FFFFFF;
 }
