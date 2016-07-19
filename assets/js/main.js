@@ -19,6 +19,8 @@ $(document).ready(function(){
       'color': '#FFFFFF'
     }, 550);
 
+    $('.menu .bar').hide();
+
     // $('.esto-dale').show();
     setTimeout(function() {
       window.location.href = "/"+to_url;
