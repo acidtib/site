@@ -1,0 +1,22 @@
+body {
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.top-left {
+  width: 20%;
+  position: absolute;
+  left: 0;
+}
+.top-right-ad {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#screen {
+  display: inline-block;
+}

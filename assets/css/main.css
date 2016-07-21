@@ -40,12 +40,24 @@ a:visited {
   background: #FFFFFF;
 }
 
+.white-color {
+  color: #FFFFFF;
+}
+
 .yellow-color {
   color: #fdcb12;
 }
 
 .yellow-background {
   background: #fdcb12;
+}
+
+.mia-blue-background {
+  background: #00b0bd;
+}
+
+.mia-blue-color {
+  color: #00b0bd;
 }
 
 .bold {
@@ -156,6 +168,10 @@ button {
 }
 
 /*individual section*/
+.view-projects {
+  cursor: pointer;
+}
+
 #fullpage .section .content {
   width: 88%;
   margin: 0 auto;

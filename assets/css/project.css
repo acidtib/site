@@ -64,6 +64,16 @@
   background: url(../img/satire.jpg) no-repeat center center;
 }
 
+.project .top-image-activism {
+  width: 100%;
+  background: url(../img/activism.jpg) no-repeat center center;
+}
+
+.project .top-image-viral-meme {
+  width: 100%;
+  background: url(../img/viral.jpg) no-repeat center center;
+}
+
 .project .top-image h1,
 .project .top-image h3 {
   text-align: center;
@@ -418,6 +428,13 @@
   margin-top: 56px;
 }
 
+.satire-projects .in-the-media a,
+.satire-projects .in-the-media a:visited,
+.satire-projects .in-the-media a:hover,
+.satire-projects .in-the-media a:active {
+  color: #fdcb12;
+}
+
 .satire-projects .in-the-media p a,
 .satire-projects .pbs-video img {
   cursor: url('../img/satire/clickme2.png'), pointer;
@@ -429,4 +446,146 @@
 
 .satire-projects .pbs-video img {
   width: 100%;
+}
+
+
+/*activism-projects*/
+.activism-projects {
+
+}
+
+.activism-projects .the-intro .say-it p {
+  padding: 130px 9% 130px 0;
+}
+
+.activism-projects .the-intro .say-it .grew {
+  font-size: 60px;
+  line-height: 50px;
+}
+
+.activism-projects .the-intro .say-it span {
+  color: #00b0bd;
+}
+
+.activism-projects .the-intro .show-it {
+  background: url(../img/activism/MIAUnderwater_photo_small.jpg) no-repeat top center;
+  background-size: cover;
+  background-position-y: -26px;
+}
+
+.activism-projects .the-backend .left-left {
+  background: url(../img/satire/plantains.png) no-repeat top center;
+  background-size: cover;
+  padding: 57px 0px 0px 65px;
+  height: 100%;
+}
+
+.activism-projects .the-backend .left-right h3 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.activism-projects .the-backend .white-under {
+  width: 81%;
+  text-align: right;
+  float: right;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 45px;
+}
+
+      /*stories*/
+
+.activism-projects .stories {
+  padding: 36px 50px;
+}
+
+.activism-projects .stories h1 {
+
+}
+
+.activism-projects .stories p {
+  text-align: right;
+  font-size: 28px;
+}
+
+
+.activism-projects .stories-under {
+  padding: 6px 0px;
+}
+
+.activism-projects .stories-under img {
+  width: 100%;
+}
+
+.activism-projects .co-organized-hackathon .left-right {
+  min-height: 462px;
+}
+
+.activism-projects .co-organized-hackathon .left-right p {
+  font-size: 28px;
+}
+
+/*VIRAL MEMES*/
+.viral-memes-projects .the-intro .say-it {
+  min-height: 604px;
+}
+
+.viral-memes-projects .the-intro .say-it div {
+  padding-right: 16%;
+  padding-top: 46px;
+  margin-bottom: 35px;
+}
+
+.viral-memes-projects .the-intro .say-it p {
+  padding-top: 0px;
+}
+
+.viral-memes-projects .the-intro .say-it img {
+  width: 138px;
+  margin: 0 auto;
+  display: block;
+  margin-right: 0px;
+}
+
+.viral-memes-projects .the-intro .say-it span {
+  color: #E23F50;
+}
+
+.viral-memes-projects .the-intro .say-it .grew {
+  font-size: 78px;
+  line-height: 66px;
+}
+
+.viral-memes-projects .the-intro .show-it {
+  background: transparent;
+}
+
+.viral-memes-projects .the-intro .show-it #screen {
+  overflow: hidden;
+  margin-top: 21px;
+  margin: 0 auto;
+  display: block;
+  width: 481px;
+}
+
+.viral-memes-projects .in-the-media {
+  padding: 36px 50px;
+  margin-top: 49px;
+}
+
+.viral-memes-projects .in-the-media p {
+  font-size: 42px;
+}
+
+.viral-memes-projects .in-the-media img {
+  width: 100%;
+  margin-top: 22px;
+}
+
+.viral-memes-projects .in-the-media a,
+.viral-memes-projects .in-the-media a:visited,
+.viral-memes-projects .in-the-media a:hover,
+.viral-memes-projects .in-the-media a:active {
+  color: #E23F50;
 }
