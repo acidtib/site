@@ -8,6 +8,10 @@ h1{
   font-size: 6em;
 }
 
+a:visited {
+  color: #333;
+}
+
 .dark-blue-color {
   color: #00416B;
 }
@@ -22,6 +26,26 @@ h1{
 
 .light-blue-background {
   background: #36A7AA;
+}
+
+.black-color {
+  color: #000000;
+}
+
+.black-background {
+  background: #000000;
+}
+
+.white-background {
+  background: #FFFFFF;
+}
+
+.yellow-color {
+  color: #fdcb12;
+}
+
+.yellow-background {
+  background: #fdcb12;
 }
 
 .bold {

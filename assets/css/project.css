@@ -54,9 +54,14 @@
   padding: 14px;
 }
 
-.project .top-image {
+.project .top-image-crypto-currency {
   width: 100%;
   background: url(../img/cryptocurrency.jpg) no-repeat center center;
+}
+
+.project .top-image-satire {
+  width: 100%;
+  background: url(../img/satire.jpg) no-repeat center center;
 }
 
 .project .top-image h1,
@@ -326,4 +331,102 @@
   color: #FFFFFF;
   margin: 0px;
   line-height: 84px;
+}
+
+
+
+/*SATIRE*/
+.satire-projects {
+
+}
+
+.satire-projects .the-intro .say-it {
+  color: #000000;
+}
+
+.satire-projects .the-intro .say-it span {
+  color: #fdcb12;
+}
+
+.satire-projects .the-intro .show-it {
+  background: #FFFFFF;
+}
+
+.satire-projects .the-intro .show-it img {
+  width: 148%;
+  margin-left: -77px;
+  margin-top: 15px;
+}
+
+.satire-projects .the-backend .left-left {
+  background: url(../img/satire/plantains.png) no-repeat top center;
+  background-size: cover;
+  padding: 57px 0px 0px 65px;
+  height: 100%;
+}
+
+.satire-projects .the-backend .yellow-ariva {
+  font-size: 54px;
+  line-height: 50px;
+}
+
+.satire-projects .the-backend .yellow-under {
+  color: #FFFFFF;
+  width: 80%;
+  text-align: right;
+  float: right;
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 45px;
+}
+
+/*-------------*/
+
+.satire-projects .the-backend-under {
+
+}
+
+.satire-projects .the-backend-under .left-left {
+  padding: 36px 50px;
+  font-size: 40px;
+  height: 100%;
+  background: url(../img/satire/plantainstack.png) no-repeat top center;
+  background-size: cover;
+  min-height: 403px;
+  background-position-y: -107px;
+}
+
+.satire-projects .the-backend-under .left-right {
+  min-height: 475px;
+  background: url(../img/satire/bananaguy.png) no-repeat top center;
+  background-size: cover;
+  background-position-y: -138px;
+}
+
+/*in-the-media*/
+
+.satire-projects .in-the-media {
+  padding: 36px 50px;
+  margin-top: 49px;
+}
+
+.satire-projects .in-the-media p {
+  font-size: 42px;
+}
+
+.satire-projects .in-the-media .pbs {
+  margin-top: 56px;
+}
+
+.satire-projects .in-the-media p a,
+.satire-projects .pbs-video img {
+  cursor: url('../img/satire/clickme2.png'), pointer;
+}
+
+.satire-projects .pbs-video {
+  margin-top: 48px;
+}
+
+.satire-projects .pbs-video img {
+  width: 100%;
 }
