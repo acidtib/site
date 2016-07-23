@@ -321,23 +321,41 @@
 }
 
 /*next project*/
-.next-project-the-plantain {
+.next-next-project {
   margin: 20px 0px 0px 0px;
 }
 
-.next-project-the-plantain .center-center {
-  background: url(../img/crypto-currency/nexttheplantain.png) no-repeat top center;
+.next-next-project .center-center {
   background-size: cover;
   padding: 67px 67px 67px 36%;
 }
 
-.next-project-the-plantain .center-center h3 {
+.next-project-the-plantain .center-center {
+  background: url(../img/crypto-currency/nexttheplantain.png) no-repeat top center;
+}
+
+.next-project-activism .center-center {
+  background: url(../img/activism.jpg) no-repeat top center;
+  background-position-y: -165px;
+}
+
+.next-project-viral-memes .center-center {
+  background: url(../img/viral.jpg) no-repeat top center;
+  background-position-y: -165px;
+}
+
+.next-project-crypto-currency .center-center {
+  background: url(../img/cryptocurrency.jpg) no-repeat top center;
+  background-position-y: -165px;
+}
+
+.next-next-project .center-center h3 {
   color: #FFFFFF;
   font-size: 22px;
 
 }
 
-.next-project-the-plantain .center-center h1 {
+.next-next-project .center-center h1 {
   color: #FFFFFF;
   margin: 0px;
   line-height: 84px;

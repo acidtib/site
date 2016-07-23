@@ -114,6 +114,10 @@ button {
   overflow: hidden;
 }
 
+.next-next-project {
+  cursor: pointer;
+}
+
 /*Overwrite fullpage css*/
 #fp-nav.right {
   right: 26px;
