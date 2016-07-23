@@ -20,7 +20,7 @@ $(document).ready(function(){
 
     } else {
       $('.the-intro .show-it').css({
-        "width": $('.the-intro  .say-it').width()+"px",
+        // "width": $('.the-intro  .say-it').width()+"px",
         "height": $('.the-intro  .say-it').height()+"px"
       });
     }
