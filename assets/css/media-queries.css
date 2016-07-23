@@ -260,7 +260,136 @@
 
 /*iPhone 5 & 5S in portrait*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+  h1 {
+    font-size: 5em;
+  }
 
+  .project {
+    padding-top: 0px;
+  }
+
+  #fullpage #dainel-vera0 img {
+    width: 56%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #fullpage #crypto-currency1 .content .title,
+  #fullpage #satire2 .content .title,
+  #fullpage #activism3 .content .title,
+  #fullpage #viral-memes4 .content .title {
+    padding-top: 35%;
+  }
+
+  #fullpage #crypto-currency1 .content .view-projects,
+  #fullpage #satire2 .content .view-projects,
+  #fullpage #activism3 .content .view-projects,
+  #fullpage #viral-memes4 .content .view-projects {
+    font-size: 35px;
+    padding: 33px;
+    margin-top: 10%
+  }
+
+  #fullpage #lets-talk6 .to-the-left {
+    padding-top: 153px;
+  }
+
+  #fullpage #lets-talk6 .to-the-right {
+    margin: 90% 8% 0 0;
+  }
+
+  .project .top-image .pointer {
+    padding-bottom: 77px;
+  }
+
+  .project .the-intro .say-it p {
+    padding: 130px 8% 130px 0;
+  }
+
+  .rnd .left-right {
+    margin: 27% auto;
+  }
+
+  .the-machine .left-left img {
+    margin-left: -81px;
+  }
+
+  .the-machine .left-right ul {
+    margin-top: 39%;
+  }
+
+  .co-organized-hackathon .left-right h3 {
+    font-size: 4em;
+    margin-bottom: 8px;
+  }
+
+  .co-organized-hackathon .left-right ul li {
+    font-size: 30px;
+  }
+
+  .satire-projects .the-intro .say-it {
+    font-size: 40px;
+  }
+
+  .satire-projects .the-intro .show-it img {
+    margin-top: 82px;
+  }
+
+  .satire-projects .the-backend .yellow-ariva {
+    font-size: 50px;
+  }
+
+  .satire-projects .the-backend-under .left-left {
+    padding: 99px 50px;
+  }
+
+  .satire-projects .the-backend-under .left-right {
+    min-height: 637px;
+  }
+
+  .satire-projects .in-the-media p {
+    font-size: 14px;
+  }
+
+  .activism-projects .the-intro .say-it .grew {
+    font-size: 47px;
+  }
+
+  .activism-projects .the-backend .white-under {
+    font-size: 32px;
+    width: 97%;
+  }
+
+  .activism-projects .stories p {
+    font-size: 22px;
+  }
+
+  .activism-projects .co-organized-hackathon .left-right {
+    min-height: 335px;
+  }
+
+  .viral-memes-projects .the-intro .say-it,
+  .viral-memes-projects .the-intro .show-it {
+    float: none;
+    width: 100%;
+  }
+
+  .viral-memes-projects .the-intro .show-it #screen {
+    width: 100%;
+  }
+
+  .viral-memes-projects .the-intro .say-it img {
+    width: 457px;
+    margin-right: auto;
+  }
+
+  .viral-memes-projects .the-intro .say-it div {
+    padding-right: 0;
+  }
+
+  .viral-memes-projects .the-intro .say-it p {
+    padding: 130px 28% 130px 0;
+  }
 }
 
 /*iPhone 2G-4S in portrait*/
