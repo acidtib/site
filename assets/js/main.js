@@ -1,151 +1,217 @@
+$(document).ready(function(){
 
+  $(".view-projects").click(function() {
+    // disable the scroll
+    $.fn.fullpage.setAllowScrolling(false);
 
+    var the_section = $(this).data("section");
+    var to_url = $(this).data("url");
 
-$(document).ready(function() {
+    // make image bigger
+    $(the_section+" .content").animate({
+      'width': '98%',
+      'height': '96%',
+      'margin-top': '0px'
+    }, 600);
 
-    $('html').addClass('js-enabled');
+    // change name color
+    $('.header-menu .name').animate({
+      'color': '#FFFFFF'
+    }, 550);
 
-    setup_nivo_lightbox();
-    setup_dense();
+    $('.menu .bar').hide();
 
-    $(window).load(function() {
-        $(".js-preloader").fadeOut(800, function() {
-            $(".js-main-container").fadeIn(800);
+    // $('.esto-dale').show();
+    setTimeout(function() {
+      window.location.href = "/"+to_url;
+    }, 1000);
 
-            setup_scrollreveal();
-            setup_progress_bar_animation();
-        });
-    });
+  });
+
+  /* ---- particles.js config ---- */
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 100,
+        "density": {
+          "enable": true,
+          "value_area":1000
+        }
+      },
+      "color": {
+        "value": ["#ccc"]
+      },
+
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#ccc"
+        },
+        "polygon": {
+          "nb_sides": 5
+        }
+      },
+      "opacity": {
+        "value": 0.6,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 120,
+        "color": "#ccc",
+        "opacity": 0.4,
+        "width": 1
+      },
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": false
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 140,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
+
+  // ----------------------
+  particlesJS("particles-js-alt", {
+    "particles": {
+      "number": {
+        "value": 100,
+        "density": {
+          "enable": true,
+          "value_area":1000
+        }
+      },
+      "color": {
+        "value": ["#ccc"]
+      },
+
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#ccc"
+        },
+        "polygon": {
+          "nb_sides": 5
+        }
+      },
+      "opacity": {
+        "value": 0.6,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 120,
+        "color": "#ccc",
+        "opacity": 0.4,
+        "width": 1
+      },
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": false
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 140,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
 
 });
-
-
-
-function setup_progress_bar_animation()
-{
-    var $animation_elements = $("[class*='a-']");
-    var $window = $(window);
-
-    $window.on('scroll resize', function() {
-        var window_height = $window.height();
-        var window_top_position = $window.scrollTop();
-        var window_bottom_position = (window_top_position + window_height);
-
-        $.each($animation_elements, function() {
-            var $element = $(this);
-            var element_height = $element.outerHeight();
-            var element_top_position = $element.offset().top;
-            var element_bottom_position = (element_top_position + element_height);
-
-            // Check to see if this current container is within viewport
-            if ((element_bottom_position >= window_top_position) &&
-                (element_top_position <= window_bottom_position)) {
-                $element.addClass('in-view');
-
-                // Animate progress bar
-                if ($element.hasClass('a-progress-bar')) {
-                    $element.css('width', $element.attr('data-percent') + '%');
-                }
-
-            }
-            //else {
-            //    $element.removeClass('in-view');
-            //}
-        });
-    });
-
-    $window.trigger('scroll');
-
-}
-
-
-
-function setup_dense()
-{
-    if($.isFunction($.fn.dense)) {
-
-        $('img').dense({
-            'glue': '@'
-        });
-
-    }
-}
-
-
-
-function setup_scrollreveal()
-{
-    if(typeof ScrollReveal !== 'undefined' && $.isFunction(ScrollReveal)) {
-
-        window.sr = ScrollReveal();
-
-        var default_config = {
-            duration: 500,
-            delay: 0,
-            easing: 'ease',
-            scale: 1,
-            mobile: false
-        };
-        var header_config = $.extend(false, default_config, {
-            duration: 1200,
-            delay: 700
-        });
-        var footer_config = $.extend(false, default_config, {
-            duration: 1500,
-            distance: 0,
-            viewOffset: {top: 0, right: 0, bottom: 100, left: 0}
-        });
-
-        var default_delay = 175;
-
-        sr.reveal('.a-header', header_config, default_delay);
-        sr.reveal('.a-footer', footer_config, default_delay);
-
-    }
-
-}
-
-
-
-function setup_nivo_lightbox()
-{
-    if($.isFunction($.fn.nivoLightbox))
-    {
-        var $selector = $('.js-lightbox');
-
-        // Hide all titles to prevent tooltip from showing
-        $selector.each(function() {
-            var title = $(this).attr('title');
-            $(this).attr('data-title', title);
-            $(this).attr('title', '');
-        });
-
-        // On click, add titles back, so lightbox can display them
-        $selector.click(function() {
-            $selector.each(function() {
-                var title = $(this).attr('data-title');
-                $(this).attr('title', title);
-            });
-        });
-
-        $selector.nivoLightbox({
-            effect: 'fade',                               // The effect to use when showing the lightbox
-            theme: 'default',                             // The lightbox theme to use
-            keyboardNav: true,                            // Enable/Disable keyboard navigation (left/right/escape)
-            clickOverlayToClose: true,                    // If false clicking the "close" button will be the only way to close the lightbox
-            onInit: function(){},                         // Callback when lightbox has loaded
-            beforeShowLightbox: function(){},             // Callback before the lightbox is shown
-            afterShowLightbox: function(lightbox){},      // Callback after the lightbox is shown
-            beforeHideLightbox: function(){},             // Callback before the lightbox is hidden
-            //afterHideLightbox: function(){},              // Callback after the lightbox is hidden
-            onPrev: function(element){},                  // Callback when the lightbox gallery goes to previous item
-            onNext: function(element){},                  // Callback when the lightbox gallery goes to next item
-            afterHideLightbox: function() {
-                // Remove title to prevent tooltip from showing
-                $selector.attr('title', '');
-            },
-            errorMessage: 'The requested content cannot be loaded. Please try again later.' // Error message when content can't be loaded
-        });
-
-    }
-}

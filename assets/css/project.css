@@ -1,0 +1,609 @@
+/*slider*/
+#slides {
+  display:none;
+  position: relative;
+  text-align: center;
+}
+
+.slidesjs-pagination {
+  list-style: none;
+  margin: -59px auto 21px;
+  position: relative;
+  z-index: 18;
+}
+
+.slidesjs-pagination li {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/dots.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px;
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+
+/*project*/
+.pointer {
+  width: 88px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 134px;
+}
+
+.header-menu .name {
+  color: #FFFFFF;
+}
+
+.project {
+  padding: 14px;
+}
+
+.project .top-image-crypto-currency {
+  width: 100%;
+  background: url(../img/cryptocurrency.jpg) no-repeat center center;
+}
+
+.project .top-image-satire {
+  width: 100%;
+  background: url(../img/satire.jpg) no-repeat center center;
+}
+
+.project .top-image-activism {
+  width: 100%;
+  background: url(../img/activism.jpg) no-repeat center center;
+}
+
+.project .top-image-viral-meme {
+  width: 100%;
+  background: url(../img/viral.jpg) no-repeat center center;
+}
+
+.project .top-image h1,
+.project .top-image h3 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.project .top-image h1 {
+  padding-top: 11%;
+  font-size: 89px;
+  line-height: 84px;
+}
+
+.project .top-image h3 {
+  font-size: 26px;
+  margin-top: 8px;
+}
+
+.project .the-intro {
+  overflow: hidden;
+}
+
+.project .the-intro .say-it,
+.project .the-intro .show-it {
+  float: left;
+  width: 50%;
+}
+
+.project .the-intro .say-it {
+  font-size: 44px;
+  line-height: 38px;
+  color: #00416B;
+}
+
+.project .the-intro .say-it p {
+  text-align: right;
+  padding: 130px 16% 130px 0;
+}
+
+.project .the-intro .say-it span {
+  color: #36A7AA;
+}
+
+.project .the-intro .say-it .grew {
+  font-size: 141px;
+  line-height: 116px;
+}
+
+.project .the-intro .show-it {
+  background: url(../img/crypto-currency/bitstophome.jpg) no-repeat top center;
+}
+
+
+/*rnd*/
+.rnd {
+
+}
+
+.rnd .left-left {
+  padding: 57px 0px 57px 65px;
+}
+
+.rnd .left-right {
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 50%;
+  width: 182px;
+  height: 182px;
+  padding: 28px;
+  margin: 15% auto;
+}
+
+.rnd .left-left h1 {
+  line-height: 86px;
+}
+
+.rnd .left-left p {
+  color: #FFFFFF;
+  font-size: 28px;
+  margin: 19px 0px 0px 0px;
+}
+
+.rnd .left-right h2 {
+  color: #FFFFFF;
+  font-size: 19px;
+  margin: 26px 0px 9px 0px;
+}
+
+/*the machine*/
+.the-machine {
+
+}
+
+.the-machine .left-left {
+  padding: 57px 0px 57px 65px;
+}
+
+.the-machine .left-right {
+  padding: 36px 50px;
+}
+
+.the-machine .left-left h1 {
+  line-height: 86px;
+}
+
+.the-machine .left-left img {
+  margin-top: -44px;
+}
+
+.the-machine .left-right ul {
+  list-style: inherit;
+  padding-left: 31px;
+  margin-top: 28%;
+}
+
+.the-machine .left-right ul li {
+  color: #00416B;
+  font-size: 34px;
+  padding-bottom: 34px;
+  line-height: 33px;
+}
+
+
+/*the-backend*/
+.the-backend {
+
+}
+
+.the-backend .left-left {
+  background: url(../img/crypto-currency/backend.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 57px 0px 0px 65px;
+  height: 100%;
+}
+
+.the-backend .left-left h1 {
+  color: #FFFFFF;
+  line-height: 86px;
+}
+
+.the-backend .left-right {
+  padding: 36px 50px;
+}
+
+.the-backend .left-right h3 {
+  font-size: 6em;
+  margin-bottom: 80px;
+}
+
+.the-backend .left-right ul {
+  list-style: inherit;
+  padding-left: 31px;
+}
+
+.the-backend .left-right ul li {
+  color: #FFFFFF;
+  font-size: 34px;
+  padding-bottom: 34px;
+  line-height: 33px;
+}
+
+
+/*the website*/
+.the-website {
+
+}
+
+.the-website .left-left {
+  padding: 92px 0px 92px 65px;
+  height: 100%;
+}
+
+.the-website .left-right {
+  padding: 92px 0px 0px 0px;
+  text-align: center;
+}
+
+.the-website .left-right img {
+  width: 80%;
+}
+
+.the-website .left-left h1 {
+  line-height: 86px;
+}
+
+.the-website .left-left p {
+  font-size: 28px;
+  margin: 19px 0px 0px 0px;
+}
+
+/*image block*/
+.image-block {
+
+}
+
+.image-block .center-center {
+  text-align: center;
+  padding: 190px 0px;
+  background: url(../img/crypto-currency/image-block.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.image-block .center-center h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #FFFFFF;
+}
+
+.image-block .center-center h1 {
+  line-height: 86px;
+  color: #FFFFFF;
+}
+
+
+/*co-organized hackathon*/
+.co-organized-hackathon {
+
+}
+
+.co-organized-hackathon .left-left {
+
+}
+
+.co-organized-hackathon .left-right {
+
+}
+
+.co-organized-hackathon .left-right {
+  padding: 36px 50px;
+}
+
+.co-organized-hackathon .left-right h3 {
+  font-size: 6em;
+  margin-bottom: 80px;
+}
+
+.co-organized-hackathon .left-right ul {
+  list-style: inherit;
+  padding-left: 31px;
+}
+
+.co-organized-hackathon .left-right ul li {
+  font-size: 34px;
+  padding-bottom: 34px;
+  line-height: 33px;
+}
+
+/*next project*/
+.next-next-project {
+  margin: 20px 0px 0px 0px;
+}
+
+.next-next-project .center-center {
+  background-size: cover;
+  padding: 67px 67px 67px 36%;
+}
+
+.next-project-the-plantain .center-center {
+  background: url(../img/crypto-currency/nexttheplantain.png) no-repeat top center;
+}
+
+.next-project-activism .center-center {
+  background: url(../img/activism.jpg) no-repeat top center;
+  background-position-y: -165px;
+}
+
+.next-project-viral-memes .center-center {
+  background: url(../img/viral.jpg) no-repeat top center;
+  background-position-y: -165px;
+}
+
+.next-project-crypto-currency .center-center {
+  background: url(../img/cryptocurrency.jpg) no-repeat top center;
+  background-position-y: -165px;
+}
+
+.next-next-project .center-center h3 {
+  color: #FFFFFF;
+  font-size: 22px;
+
+}
+
+.next-next-project .center-center h1 {
+  color: #FFFFFF;
+  margin: 0px;
+  line-height: 84px;
+}
+
+
+
+/*SATIRE*/
+.satire-projects {
+
+}
+
+.satire-projects .the-intro .say-it {
+  color: #000000;
+}
+
+.satire-projects .the-intro .say-it span {
+  color: #fdcb12;
+}
+
+.satire-projects .the-intro .show-it {
+  background: #FFFFFF;
+}
+
+.satire-projects .the-intro .show-it img {
+  width: 148%;
+  margin-left: -77px;
+  margin-top: 15px;
+}
+
+.satire-projects .the-backend .left-left {
+  background: url(../img/satire/plantains.png) no-repeat top center;
+  background-size: cover;
+  padding: 57px 0px 0px 65px;
+  height: 100%;
+}
+
+.satire-projects .the-backend .yellow-ariva {
+  font-size: 54px;
+  line-height: 50px;
+}
+
+.satire-projects .the-backend .yellow-under {
+  color: #FFFFFF;
+  width: 80%;
+  text-align: right;
+  float: right;
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 45px;
+}
+
+/*-------------*/
+
+.satire-projects .the-backend-under {
+
+}
+
+.satire-projects .the-backend-under .left-left {
+  padding: 36px 50px;
+  font-size: 40px;
+  height: 100%;
+  background: url(../img/satire/plantainstack.png) no-repeat top center;
+  background-size: cover;
+  min-height: 403px;
+  background-position-y: -107px;
+}
+
+.satire-projects .the-backend-under .left-right {
+  min-height: 475px;
+  background: url(../img/satire/bananaguy.png) no-repeat top center;
+  background-size: cover;
+  background-position-y: -138px;
+}
+
+/*in-the-media*/
+
+.satire-projects .in-the-media {
+  padding: 36px 50px;
+  margin-top: 49px;
+}
+
+.satire-projects .in-the-media p {
+  font-size: 42px;
+}
+
+.satire-projects .in-the-media .pbs {
+  margin-top: 56px;
+}
+
+.satire-projects .in-the-media a,
+.satire-projects .in-the-media a:visited,
+.satire-projects .in-the-media a:hover,
+.satire-projects .in-the-media a:active {
+  color: #fdcb12;
+}
+
+.satire-projects .in-the-media p a,
+.satire-projects .pbs-video img {
+  cursor: url('../img/satire/clickme2.png'), pointer;
+}
+
+.satire-projects .pbs-video {
+  margin-top: 48px;
+}
+
+.satire-projects .pbs-video img {
+  width: 100%;
+}
+
+
+/*activism-projects*/
+.activism-projects {
+
+}
+
+.activism-projects .the-intro .say-it p {
+  padding: 130px 9% 130px 0;
+}
+
+.activism-projects .the-intro .say-it .grew {
+  font-size: 60px;
+  line-height: 50px;
+}
+
+.activism-projects .the-intro .say-it span {
+  color: #00b0bd;
+}
+
+.activism-projects .the-intro .show-it {
+  background: url(../img/activism/MIAUnderwater_photo_small.jpg) no-repeat top center;
+  background-size: cover;
+  background-position-y: -26px;
+}
+
+.activism-projects .the-backend .left-left {
+  background: url(../img/satire/plantains.png) no-repeat top center;
+  background-size: cover;
+  padding: 57px 0px 0px 65px;
+  height: 100%;
+}
+
+.activism-projects .the-backend .left-right h3 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.activism-projects .the-backend .white-under {
+  width: 81%;
+  text-align: right;
+  float: right;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 45px;
+}
+
+      /*stories*/
+
+.activism-projects .stories {
+  padding: 36px 50px;
+}
+
+.activism-projects .stories h1 {
+
+}
+
+.activism-projects .stories p {
+  text-align: right;
+  font-size: 28px;
+}
+
+
+.activism-projects .stories-under {
+  padding: 6px 0px;
+}
+
+.activism-projects .stories-under img {
+  width: 100%;
+}
+
+.activism-projects .co-organized-hackathon .left-right {
+  min-height: 462px;
+}
+
+.activism-projects .co-organized-hackathon .left-right p {
+  font-size: 28px;
+}
+
+/*VIRAL MEMES*/
+.viral-memes-projects .the-intro .say-it {
+  min-height: 604px;
+}
+
+.viral-memes-projects .the-intro .say-it div {
+  padding-right: 16%;
+  padding-top: 46px;
+  margin-bottom: 35px;
+}
+
+.viral-memes-projects .the-intro .say-it p {
+  padding-top: 0px;
+}
+
+.viral-memes-projects .the-intro .say-it img {
+  width: 138px;
+  margin: 0 auto;
+  display: block;
+  margin-right: 0px;
+}
+
+.viral-memes-projects .the-intro .say-it span {
+  color: #E23F50;
+}
+
+.viral-memes-projects .the-intro .say-it .grew {
+  font-size: 78px;
+  line-height: 66px;
+}
+
+.viral-memes-projects .the-intro .show-it {
+  background: transparent;
+}
+
+.viral-memes-projects .the-intro .show-it #screen {
+  overflow: hidden;
+  margin-top: 21px;
+  margin: 0 auto;
+  display: block;
+  width: 481px;
+}
+
+.viral-memes-projects .in-the-media {
+  padding: 36px 50px;
+  margin-top: 49px;
+}
+
+.viral-memes-projects .in-the-media p {
+  font-size: 42px;
+}
+
+.viral-memes-projects .in-the-media img {
+  width: 100%;
+  margin-top: 22px;
+}
+
+.viral-memes-projects .in-the-media a,
+.viral-memes-projects .in-the-media a:visited,
+.viral-memes-projects .in-the-media a:hover,
+.viral-memes-projects .in-the-media a:active {
+  color: #E23F50;
+}
