@@ -182,6 +182,11 @@ button {
   background-size: cover!important;
 }
 
+#fullpage #dainel-vera0 img {
+  width: 38%;
+  margin: 0px 0px 0px 8%;
+}
+
 #fullpage .section .content .title {
   color: #FFFFFF;
   text-transform: uppercase;

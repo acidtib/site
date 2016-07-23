@@ -4,17 +4,26 @@ $(document).ready(function(){
   resize_blocks();
 
   function top_image_size() {
-    var the_size = $(window).height() - 14;
-        the_size = the_size+"px";
+    if (isMobile.apple.phone || isMobile.android.phone || isMobile.seven_inch) {
 
-    $('.project .top-image').css( "height", the_size );
+    } else {
+      var the_size = $(window).height() - 14;
+          the_size = the_size+"px";
+
+      $('.project .top-image').css( "height", the_size );
+    }
+
   }
 
   function resize_blocks() {
-    $('.the-intro .show-it').css({
-      "width": $('.the-intro  .say-it').width()+"px",
-      "height": $('.the-intro  .say-it').height()+"px"
-    });
+    if (window.location.pathname == "/viral-memes.html") {
+
+    } else {
+      $('.the-intro .show-it').css({
+        "width": $('.the-intro  .say-it').width()+"px",
+        "height": $('.the-intro  .say-it').height()+"px"
+      });
+    }
 
     // the-backend
     $('.the-backend .make-grow').css({
