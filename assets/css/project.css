@@ -607,3 +607,21 @@
 .viral-memes-projects .in-the-media a:active {
   color: #E23F50;
 }
+
+.the-pbs-video {
+  display: none;
+}
+
+.the-pbs-video i {
+  font-size: 59px;
+  position: absolute;
+  right: 45px;
+  margin-top: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.the-pbs-video video {
+  width: 100%;
+}

@@ -1,5 +1,20 @@
 $(document).ready(function(){
 
+  $(".pbs-video img").click(function() {
+    $('.pbs-video img').hide();
+    $('.pbs-video .the-pbs-video').show();
+
+    $('.pbs-video .the-pbs-video video').get(0).play();
+  });
+
+  $(".pbs-video .the-pbs-video i").click(function() {
+    $('.pbs-video .the-pbs-video video').get(0).pause();
+    $('.pbs-video .the-pbs-video video').get(0).currentTime = 0;
+
+    $('.pbs-video .the-pbs-video').hide();
+    $('.pbs-video img').show();
+  });
+
   top_image_size();
   resize_blocks();
 
